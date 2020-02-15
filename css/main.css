@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f2efea;
+    height: 100vh;
+    font-family: 'Tomorrow', sans-serif;
+
+
+}
+.btn{
+    font-weight: bolder;
+    padding:4px 20px;
+}
+
+.bottom-name{
+    background-color: rgba(14, 13, 13, 0.788);
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+.p-copyright{
+font-size: 20px;
+}
+#credit{
+    text-decoration: none;
+    color: #fff;
+}
+.main{
+    position: relative;
+    top: 2vh;
+    max-width:400px;
+    margin: 0 auto;
+    
+}
+
+.img-div{
+width: 100%;
+border: 3px solid lightpink;
+}
