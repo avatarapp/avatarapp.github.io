@@ -4,7 +4,8 @@ $(document).ready(() => {
 
     $('.submit').on('click', (e) => {
         e.preventDefault();
-        const name = $('#name').val();
+        let nameS = $('#name').val();
+        let name = nameS.replace(/[0-9`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi,'');
         const gender = $('#gender').val();
         let url = 'https://joeschmoe.io/api/v1/'+gender+'/'+name;
         console.log(name);
