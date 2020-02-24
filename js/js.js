@@ -11,7 +11,7 @@ $(document).ready(() => {
         console.log(name);
         console.log(gender);
     
-        if (name == ''){
+        if (name == '' || gender == 'none'){
             $('#error_msg').show();
             return false
         }
